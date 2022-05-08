@@ -9,7 +9,9 @@ html {
 *,
 *::before,
 *::after {
-  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -25,9 +27,26 @@ body {
   line-height: 1.5;
 }
 
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
 img {
-  max-width: 100%;
-  height: auto;
+  display: block;
+}
+
+a, span, button {
+  display: inline-block;
+}
+
+button{
+  border: none;
+  background: none;
+  cursor: pointer;
 }
 
 /* CONTAINER */
@@ -41,9 +60,8 @@ img {
   margin-right: auto;
 }
 
-
 /* MAIN CONTENT */
 
-.main-content{
-    flex-grow: 1;
+.main-content {
+  flex-grow: 1;
 }
