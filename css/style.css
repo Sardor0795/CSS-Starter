@@ -1,5 +1,9 @@
 /* GLOBAL */
 
+:root {
+  --main-color: #3f3f3f;
+}
+
 html {
   box-sizing: border-box;
   height: 100%;
@@ -10,6 +14,11 @@ html {
 *::before,
 *::after {
   box-sizing: inherit;
+}
+
+*:focus {
+  outline: 2px dashed var(--main-color);
+  outline-offset: 3px;
 }
 
 body {
