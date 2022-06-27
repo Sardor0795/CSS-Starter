@@ -76,7 +76,31 @@ button {
   margin-right: auto;
 }
 
-/* RADIO HIDER */
+/* PLACEHOLDER STYLE */
+
+/* ::-webkit-input-placeholder,
+::-moz-placeholder,
+:-ms-input-placeholder,
+:-moz-placeholder {
+  color: var(--grey);
+} */
+
+/* AUTOFILL STYLES */
+
+/* input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+  -webkit-text-fill-color: var(--black);
+  -webkit-box-shadow: 0 0 0px 1000px rgb(255, 255, 255) inset;
+} */
+
+/* ELEMENT HIDER */
 
 .visually-hidden {
   position: absolute;
