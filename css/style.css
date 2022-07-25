@@ -1,10 +1,10 @@
-/* GLOBAL */
-
-/* input pattern="^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$" */
+/* CUSTOM PROPERTIES */
 
 :root {
   --main-color: #3f3f3f;
 }
+
+/* GLOBAL */
 
 html {
   box-sizing: border-box;
